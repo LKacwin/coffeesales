@@ -4,11 +4,12 @@
 An analysis of the coffee sales in order to determine the most profile clients, countries and type of coffee for future approaches.
 
 ## Dataset Used
-A data with 1000 rows and 4 years of orders. 
+A data with 1000 rows and 3 years of orders. 
 ## Analyses derived from the dataset
 - Analysis of orders shipped within seven days, within one month, and after 30 days of placing the order.
 
-<p align="center"><img width="120" alt="orderanalysis" src="https://user-images.githubusercontent.com/71536311/192024449-3184c7d2-8dbc-46bd-b531-e8c9f68d9ee3.png"></p>
+<p align="center"><img width="300" alt="orderanalysis" src![Cleaning coffe type name](https://github.com/LKacwin/coffeesales/assets/161726319/83be2fb6-a6c0-4bd9-9775-4237c5a3d14a)
+=></p>
 
 - Linked transaction, order, COGS, revenue, and net profit options buttons to the charts. If an option is selected on a chart, the selected option is displayed on all charts except those with shipping intervals.
 
