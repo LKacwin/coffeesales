@@ -1,4 +1,4 @@
-# Sales-Analysis-Dashboard
+# COFFE SALES INTERACTIVE DASHBOARD
 
 ## Problem Statement
 An analysis of the coffee sales in order to determine the most profile clients, countries and type of coffee for future approaches.
@@ -6,34 +6,41 @@ An analysis of the coffee sales in order to determine the most profile clients, 
 ## Dataset Used
 A data with 1000 rows and 3 years of orders. 
 ## Analyses derived from the dataset
-- Analysis of orders shipped within seven days, within one month, and after 30 days of placing the order.
+## Cleaning up data. Taking data by XLOOKUP and INDEX and MATCH functions. Adding loyalyty card
 
-![Cleaning coffe type name](https://github.com/LKacwin/coffeesales/assets/161726319/30b4a387-270c-481e-8b45-49debaf19f6b)
+![Email Formula](https://github.com/LKacwin/coffeesales/assets/161726319/3ac4bc07-5343-4e44-a679-bb9d8a755c7f)
+
+![Name Formula](https://github.com/LKacwin/coffeesales/assets/161726319/2522895c-63be-40ba-9c5b-8b029a0199a7)
+
+![Index and match function](https://github.com/LKacwin/coffeesales/assets/161726319/279b9ce4-ddfb-45ad-b6ce-e960a98c3317)
 
 
-- Linked transaction, order, COGS, revenue, and net profit options buttons to the charts. If an option is selected on a chart, the selected option is displayed on all charts except those with shipping intervals.
 
-<p align="center"><img width="262" alt="toggleoptionbuttons" src="https://user-images.githubusercontent.com/71536311/192081379-3573aef2-3a80-4a09-b114-2c58a961a156.png"></p>   
-<p align="center"><img width="405" alt="profitmonquart" src="https://user-images.githubusercontent.com/71536311/192081388-68e4e70c-b8a3-4fe6-9e1c-84000ad8031f.png"> </p>     
-  
-<p align="center"><img width="371" alt="profitsaleschannel" src="https://user-images.githubusercontent.com/71536311/192081392-66d58382-98e2-4966-8438-ce91aa03abbb.png"> </p>     
-  
-<p align="center"><img width="365" alt="profititemtypes" src="https://user-images.githubusercontent.com/71536311/192081397-1718cac7-4655-4a7a-9cb2-5a9ca4458681.png"></p>     
-  
-<p align="center"><img width="400" alt="profitsalesregions" src="https://user-images.githubusercontent.com/71536311/192081402-dbb355b9-2125-45ba-aca8-9fb0e932b257.png"></p>
 
-- Easy-to-read cards visualize important KPIs for rapid decision-making.
 
-<p align="center"><img width="811" alt="kpis" src="https://user-images.githubusercontent.com/71536311/192081558-a958c702-3901-494b-a04a-321f600b2a63.png"></p>
+![Adding loyalyty card](https://github.com/LKacwin/coffeesales/assets/161726319/6a489427-4fb6-4445-9fc4-2bc4bd5208a9)
+
+
+
+## Changing roast type and type of coffee by function SWITCH 
+![Roast type](https://github.com/LKacwin/coffeesales/assets/161726319/9981b701-f295-4c25-9135-faf4b44e3248)
+
+![Cleaning coffe type name](https://github.com/LKacwin/coffeesales/assets/161726319/80d3fb84-5083-4429-b36f-8f588b71471e)
+
+
+
+Making interactive dashboards with filters 
+![Interactive dashboard with timeline and filters](https://github.com/LKacwin/coffeesales/assets/161726319/dde50192-5bf0-4a5e-bc72-392adda8268c)
+## Easy-to-read cards visualize important KPIs for rapid decision-making.
 
 ### Active filters needed to interact with the data and the dashboard 
-Country, years, and quarters
+Country, years, type of coffee, size and loyalyty card.
 
-<img width="130" height="155" alt="countryslicer" src="https://user-images.githubusercontent.com/71536311/191996934-3fefa752-2aca-4285-b51b-d2f5bda2671e.png">  <img width="130" height="120" alt="yearslicer" src="https://user-images.githubusercontent.com/71536311/191996968-115a04a3-7280-4e1e-b447-ec7f1c014492.png">  <img width="120" height="85" alt="quarterslicer" src="https://user-images.githubusercontent.com/71536311/191996992-fc2f9fef-1b51-4676-9aab-59e10625f756.png">
+![filtered data example](https://github.com/LKacwin/coffeesales/assets/161726319/725331c3-cecc-45de-a902-5d95dc1081ed)
 
 ## Tools Used
 ![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
-- Utilized **Power Query** to extract and transform the data, then transferred the data to **Power Pivot** for further analysis.
+- Utilized **XLOOKUP,MATCH,INDEX, and SWITCH** to extract and transform the data, then transferred the data to **Power Pivot** for further analysis.
 - **Power Pivot** is used to store the data for further exploration in the future, if the number of rows increases into the millions.
-- Implemented **OFFSET** and **COUNTA** functions to prepare reports that interpret transaction, order, COGS, revenue, and net profit on a monthly and quarterly basis, by sales channel, by sales regions and by item types sold over time.
+- Implemented filters and profit on a monthly and yearly basis, by type of coffee, size.
