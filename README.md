@@ -8,8 +8,8 @@ A data with 1000 rows and 3 years of orders.
 ## Analyses derived from the dataset
 - Analysis of orders shipped within seven days, within one month, and after 30 days of placing the order.
 
-<p align="center"><img width="300" alt="orderanalysis" src![Cleaning coffe type name](https://github.com/LKacwin/coffeesales/assets/161726319/83be2fb6-a6c0-4bd9-9775-4237c5a3d14a)
-=></p>
+![Cleaning coffe type name](https://github.com/LKacwin/coffeesales/assets/161726319/30b4a387-270c-481e-8b45-49debaf19f6b)
+
 
 - Linked transaction, order, COGS, revenue, and net profit options buttons to the charts. If an option is selected on a chart, the selected option is displayed on all charts except those with shipping intervals.
 
